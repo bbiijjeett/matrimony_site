@@ -39,7 +39,7 @@ const Navbar = () => {
               <div className="flex items-end">
                 <Link
                   to={"/register"}
-                  className="bg-white hover:bg-[#e91d63] hover:text-white border-[1px] border-[#e91d63] px-5 py-2 rounded-full text-[#e91d63] font-semibold cursor-pointer"
+                  className="bg-white hover:bg-[#e91d63] hover:text-white border-[1px] border-[#e91d63] px-3 md:px-5 py-2 rounded-full text-[#e91d63] font-semibold cursor-pointer"
                 >
                   Join now
                 </Link>
