@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className="flex flex-row w-full items-center justify-between">
               <div className="flex items-center">
                 <img src={logo} alt="logo" className="h-14 w-14" />
-                <p className="ml-5 text-xl md:text-2xl font-bold text-[#e91d63]">
+                <p className="ml:2 md:ml-5 text-lg md:text-2xl font-bold text-[#e91d63]">
                   ShadiManch
                 </p>
               </div>
