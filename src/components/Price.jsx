@@ -43,7 +43,7 @@ const Price = () => {
               Start Trail
             </button>
           </div>
-          <div className="relative w-full bg-slate-100 border-2 shadow-xl px-5 py-12 rounded-xl flex flex-col items-center">
+          <div className="relative w-full bg-slate-100 border-2 shadow-xl px-0 md:px-5 py-12 rounded-xl flex flex-col items-center">
             <div className="absolute -top-5 text-lg font-bold text-white p-2 bg-red-500 rounded-full">
               Most popular
             </div>
