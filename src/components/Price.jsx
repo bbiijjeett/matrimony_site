@@ -13,7 +13,7 @@ const Price = () => {
           Start with 14-day free trial. No credit card needed. Cancel at
           anytime.
         </h3>
-        <div className="mt-5 py-10  px-5 w-full flex flex-col lg:flex-row items-center justify-center gap-10 md:gap-20 overflow-hidden">
+        <div className="mt-5 py-10 px-1 md:px-5 w-full flex flex-col lg:flex-row items-center justify-center gap-10 md:gap-20 overflow-hidden">
           <div className="w-full bg-slate-100 border-2 shadow-xl p-5 rounded-xl flex flex-col items-center">
             <h1 className="text-2xl font-semibold">Basic</h1>
             <h1 className="text-4xl font-bold mt-2">₹1,500/month</h1>
@@ -43,7 +43,7 @@ const Price = () => {
               Start Trail
             </button>
           </div>
-          <div className="relative w-full bg-slate-100 border-2 shadow-xl px-0 md:px-5 py-12 rounded-xl flex flex-col items-center">
+          <div className="relative w-full bg-slate-100 border-2 shadow-xl px-5 py-12 rounded-xl flex flex-col items-center">
             <div className="absolute -top-5 text-lg font-bold text-white p-2 bg-red-500 rounded-full">
               Most popular
             </div>
